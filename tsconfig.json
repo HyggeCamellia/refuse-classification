@@ -36,13 +36,14 @@
     }
   },
   "include": [
-    "app",
-    "lib",
-    "components",
-    "public",
-    "public/img",
-    "styles",
-    "types",
+    "app/**/*.ts",
+    "lib/**/*.ts", 
+    "components/**/*.ts",
+    "public/**/*.ts",
+    "public/img/**/*.ts",
+    "styles/**/*.ts",
+    "stores/**/*.ts",
+    "types/**/*.ts",
     ".next/types/**/*.ts"
   ],
   "composite": true,
